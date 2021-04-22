@@ -9,7 +9,7 @@ Temporadas de {{ $serie->nome }}
     @foreach($temporadas as $temporada)
     <li class="list-group-item d-flex justify-content-between align-items-center">
         <a href="">Temporada {{ $temporada->numero }}</a>
-        <span class="badge bg-secondary">0/{{$temporada->episodios->count()}}</span>
+        <span class="badge bg-secondary">5/{{$temporada->episodios->count()}}</span>
     </li>
 
     @endforeach
